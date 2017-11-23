@@ -1,3 +1,6 @@
+// concurrent_clock.go
+// connect to this server with:
+// $ nc localhost 8000
 package main
 
 import (
