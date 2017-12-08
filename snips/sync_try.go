@@ -14,7 +14,6 @@ import (
     "sync"
     "time"
 )
-
 // SafeCounter is safe to use concurrently
 type SafeCounter struct {
     val map[string]int
