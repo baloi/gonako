@@ -5,6 +5,9 @@ package main
 
 import (
     "fmt"
+    "bufio"
+    "net"
+    "log"
 )
 
 type store struct {
@@ -25,16 +28,35 @@ func (store *store) Set(key string, val string) {
     store.data[key] = val
 }
 
+func (client *client) serve() {
+
+}
+
 func main() {
     fmt.Printf("Server started\n")
-    var id int64
+    addr := "8080"
+    listener, err := net.Listen("tcp", ":8080")
+    if err != nil {
+        log.Printf("Error: listen(): %s", err)
+        os.Exit(1)
+    }
+
+    log.Printf("Accepting connections at: %s", addr)
     store := &store{
         data: make(map[string]string),
         // lock: &sync.RWMutex{},
     }
 
-    id = 0
-    client := &client{id: id, conn: conn, store: store}
-    // go client.serve()
+    var id int64
+    for {
+        conn, err := listener.Accept()
+        if err != nil {
+            log.Printf("Error: Accepting(): %s", err)
+            continue
+        }
+        id++
+        client := &client{id: id, conn: conn, store: store}
+        go client.serve()
+    }
 
 }
