@@ -8,6 +8,7 @@ import (
     "bufio"
     "net"
     "log"
+    "os"
 )
 
 type store struct {
@@ -29,7 +30,19 @@ func (store *store) Set(key string, val string) {
 }
 
 func (client *client) serve() {
+    defer client.conn.Close()
+    client.log("Accepted connection: %s", client.conn.LocalAddr())
+    client.reader = bufio.NewReader(client.conn)
 
+    for {
+        cmd, err := client.readCommand()
+    }
+     
+}
+
+func (client *client) log(msg string, args ...interface{}) {
+    prefix := fmt.Sprintf("Client #%d: ", client.id)
+    log.Printf(prefix+msg, args...)
 }
 
 func main() {
