@@ -1,0 +1,10 @@
+awesomeProject/.idea/*
+interpreter/.idea/*
+snips/.idea/*
+trace/.idea/*
+github.com/*
+sql/*.db
+*.swp
+golang.org/*
+honnef.co/*
+budget/budget.txt

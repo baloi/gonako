@@ -1,0 +1,25 @@
+> a test:
+  budget.txt becomes budget1.txt
+
+> functions
+  Assumptions:
+    - everytime a budget function is called, budget is calculated?
+    - everything in "done" should not be touched.
+    - so how about start with one function, budget_calculate?
+
+> budget_calculate
+  - do not touch "done"
+  - steps:
+    * read budget and put it memory (array)
+    * get current 2 weeks and next 2 week dates
+    * if there are unpaid from last month, then overflow
+    * if there are paid future then do not include... (read this from done)
+    * extract the payments to be made for current 2 weeks
+    * extract the payments to be made for next 2 weeks
+    * write temporary budget (budget_temp.txt) 
+    * check temporary budget and if correct, then write
+      . checking does involve showing itemized list and maybe
+        yes(y), no(n), ignore(i)
+      . any(n) and the budget goes back to the books...
+
+===============================================================================

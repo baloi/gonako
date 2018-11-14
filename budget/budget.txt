@@ -1,0 +1,96 @@
+----------
+- Account rates
+- Amazon          = 24 % on defferred ($3970)
+- Bank of America = 17.24 %    ($5321)
+- Key Mastercard  = 14 %
+- Key LOC         =  9 %
+------------
+> monthly
+-$ 900, day 1-9, rent apartment
+-$ 268, day 4  , insurance K of C
+-$  60, day 4  , insurance K of C 2
+-$ 130, day 7  , cable time warner
+-$   7, day 7  , ultimate guitar
+-$ 150, day 10 , credit card amazon
+-$  10, day 10 , spotify
+-$ 250, day 10 , loan nbcoxsackie (16th)
+-$ 220, day 12 , celphones
+-$ 130, day 12 , loan citizen's bank
+-$  40, day 14 , gym clublife
+-$ 170, day 14 , insurance geico
+-$  28, day 16 , card staples
+-$  40, day 19 , credit card keybank
+-$  57, day 19 , guitar pay 
+-$ 100, day 20 , Metrobank
+-$ 215, day 22 , bank of america
+-$   30, day 22 , citicard (from Citizen's)
+-$ 100, day 25 , CMH bills
+-$  26, day 26 , vultr
+-$ 260, day 27 , key loan (car)
+-$ 120, day 28 , line of credit
+
+-$ 180, biweekly, gas
+-$  64, biweek , SEFCU
+-$ 145, biweek , CGFCU
+-$ 450, biweek , balay
+
+- Unknown:
+-$30 , day ?  , credit card bank of america
+
+> weekly
+-$ 180, biweekly, gas
+-$ 400, biweekly, food
+
+
+=============================================
+
+++++++++++++++++++++++++++++++++++++
+utang to pay
+-$3500 - Coxsackie
+-$1000 - K of C
+++++++++++++++++++++++++++++++++++++
+
+=====================================
+
+* week 11/9 - 11/22: (Eddy)
+
+-$ 180, biweekly, gas
+-$  64, biweek , SEFCU
+-$ 145, biweek , CGFCU
+
+-$  40, day 14 , gym clublife
+
+-$ 170, day 14 , insurance geico
+-$  28, day 16 , card staples
+-$  40, day 19 , credit card keybank
+-$  57, day 19 , guitar pay 
+-$ 100, day 20 , Metrobank
+-$ 210, day 22 , bank of america
+-$  30, day 22 , citicard (from Citizen's)
+
+*************** done ****************
+-$ 130, day 12 , loan citizen's bank
+-$  10, day 10 , spotify
+-$ 130, day 7  , cable time warner
+-$ 150, day 10 , credit card amazon
+-$ 250, day 10 , loan nbcoxsackie (16th)
+*************************************
+
+=====================================
+* week 11/23 - 12/06: (Eddy)
+
+-$ 180, biweekly, gas
+-$  64, biweek , SEFCU
+-$ 145, biweek , CGFCU
+
+-$ 220, day 24 , celphones
+-$ 100, day 25 , CMH bills
+-$  26, day 26 , vultr
+-$ 260, day 27 , key loan (car)
+-$ 120, day 28 , line of credit
+-$ 900, day 1-9, rent apartment
+-$ 268, day 4  , insurance K of C
+-$  60, day 4  , insurance K of C 2
+
+=====================================
+
